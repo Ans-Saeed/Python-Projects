@@ -30,6 +30,4 @@ def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode:
 l1 = ListNode(1, ListNode(2, ListNode(4)))
 l2 = ListNode(1, ListNode(3, ListNode(4)))
 merged = mergeTwoLists(l1, l2)
-while merged:
-    print(merged.val)
 # The merged list should be: 1 -> 1 -> 2 -> 3 -> 4 -> 4
